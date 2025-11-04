@@ -2,6 +2,22 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nina Carducci, photographe professionnelle à Bordeaux. Shooting photo, retouches et albums personnalisés pour immortaliser vos moments précieux."
+    />
+    <meta property="og:title" content="Nina Carducci - Photographe Bordeaux" />
+    <meta
+      property="og:description"
+      content="Photographe professionnelle à Bordeaux"
+    />
+    <meta property="og:image" content="./assets/images/nina.webp" />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://vaden.github.io/Openclassrooms-Nina-Carducci/"
+    />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +35,23 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <title>Nina Carducci | Blog</title>
+    <title>Nina Carducci - Photographe professionnelle à Bordeaux</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "image": "./assets/images/nina.webp",
+        "description": "Photographe professionnelle",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "FR"
+        },
+        "priceRange": "50€-400€",
+        "openingHours": "Mo-Fr 10:00-19:00"
+      }
+    </script>
   </head>
   <body>
     <header class="top-header">
@@ -33,10 +65,12 @@
           <li>
             <a
               class="social-link"
-              href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+              href="..."
               target="_blank"
-              ><img src="assets/images/instagram.webp" alt="instagram"
-            /></a>
+              aria-label="Suivez-moi sur Instagram"
+            >
+              <img src="assets/images/instagram.webp" alt="Logo Instagram" />
+            </a>
           </li>
         </ul>
       </nav>
